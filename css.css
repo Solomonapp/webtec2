@@ -1,0 +1,45 @@
+/* CSS DOCUMENT */
+
+.dropdown {
+  padding-bottom: 15px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+/* bootstrap override */
+
+a.btn-primary:hover {
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 20px;
+   background-color: #A7BABE;
+   color: white;
+   text-align: center;
+}
+
+
